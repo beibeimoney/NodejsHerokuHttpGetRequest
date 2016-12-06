@@ -1,0 +1,17 @@
+{
+    "name": "Open PC RFID Send Mail",
+    "description": "Open PC RFID Send Mail",
+    "repository": "https://github.com/yakutozcan/RFIDUnlockPCSendNotificationMail",
+    "logo": "https://avatars0.githubusercontent.com/u/17635174",
+    "keywords": ["node", "heroku", "express", "facebook", "messenger"],
+    "env": {
+        "VERIFY_TOKEN": {
+            "description": "Set url token",
+            "value": "TEST"
+        },
+        "GMAIL_ACCESS_TOKEN": {
+            "description": "Gmail password",
+            "value": "NULL"
+        }
+    }
+}

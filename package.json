@@ -1,0 +1,31 @@
+{
+  "name": "RFID-pc-open-send-mail",
+  "version": "0.1.0",
+  "description": "Open PC RFID Send Mail",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.3",
+    "request": "2.71.0",
+    "nodemailer":"2.6.4",
+    "nodemailer-smtp-transport":"2.7.2"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "RFID",
+    "arduino"
+  ],
+  "license": "MIT"
+}
